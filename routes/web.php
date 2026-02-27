@@ -57,4 +57,5 @@ Route::get('/ajouter', [ProductController::class, 'ajouter'])->name('products.aj
 Route::get('/compte/cree', [ProductController::class, 'cree'])->name('compte.cree');
 Route::post('/compte/cree', [ProductController::class, 'storeCompte'])->name('compte.store');
 Route::resource('stagiaire',StagiaireController::class);
+Route::get('/annonces/dashboard', [AnnonceController::class, 'dashboard'])->name('annonces.dashboard');
 Route::resource('annonces', AnnonceController::class);

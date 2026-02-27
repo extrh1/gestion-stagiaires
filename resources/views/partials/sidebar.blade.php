@@ -17,6 +17,7 @@
             <li><a href="{{ url('/ajouter') }}">Ajouter</a></li>
             <li><a href="{{ url('/contact') }}">Contact</a></li>
             <li><a href="{{ route('stagiaire.index')}}">Liste des Stagiaires</a></li>
-            <li><a href="{{ route('annonces.index')}}">List Des Annonces</a></li>    
+            <li><a href="{{ route('annonces.index')}}">List Des Annonces</a></li>  
+            <li><a href="{{ route('annonces.dashboard')}}">Dashboard</a></li>  
         </ul>
     </div>
